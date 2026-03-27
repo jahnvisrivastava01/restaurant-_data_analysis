@@ -1,16 +1,107 @@
-# React + Vite
+# 🍽️ DineInsight – Restaurant Data Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+DineInsight is a full-stack restaurant analytics dashboard that helps analyze sales data, identify trends, and visualize key business insights.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It allows users to upload restaurant data (CSV) and instantly view metrics like revenue, top dishes, and order distribution through interactive charts.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 📊 Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Total Revenue 💰
+* Total Orders 📦
+* Top Selling Dish 🍕
+* Interactive Charts (Bar + Pie)
+
+### 📈 Analytics Page
+
+* Average Order Value
+* Performance Insights
+* Key Metrics Summary
+
+### 📄 Reports Page
+
+* Clean tabular report (office-style)
+* Summary of business metrics
+
+### 📂 CSV Upload (🔥 Real-world feature)
+
+* Upload your own dataset
+* Backend processes using pandas
+* Dashboard updates dynamically
+
+---
+
+## 🧠 Tech Stack
+
+### Frontend
+
+* React (Vite)
+* Tailwind CSS
+* Recharts
+
+### Backend
+
+* Python (Flask)
+* Pandas
+* NumPy
+
+---
+
+
+## ▶️ How to Run Locally
+
+### 🔹 Backend
+
+```bash
+cd backend
+pip install flask pandas numpy flask-cors
+python app.py
+```
+
+---
+
+### 🔹 Frontend
+
+```bash
+cd dineinsight
+npm install
+npm run dev
+```
+
+---
+
+## 📂 CSV Format
+
+Upload CSV in this format:
+
+```csv
+item,price,quantity
+Pizza,300,2
+Burger,150,3
+Pasta,250,1
+```
+
+---
+
+## 📊 Sample Output
+
+* Revenue calculation
+* Top dish identification
+* Visual charts for insights
+
+---
+
+## 💡 Future Improvements
+
+* Date-based filtering 📅
+* Category-wise analytics 🍜
+* Drag & drop file upload
+* Deployment (Vercel + Render)
+* Authentication system
+
+---
