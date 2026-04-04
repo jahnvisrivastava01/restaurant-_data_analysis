@@ -99,7 +99,7 @@ Pasta,250,1
 ## 💡 Future Improvements
 
 * Date-based filtering 📅
-* Category-wise analytics 🍜
+* Category-wise analytics 
 * Drag & drop file upload
 * Deployment (Vercel + Render)
 * Authentication system
