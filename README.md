@@ -13,7 +13,7 @@ It allows users to upload restaurant data (CSV) and instantly view metrics like 
 ### 📊 Dashboard
 
 * Total Revenue 💰
-* Total Orders 📦
+* Total Orders 
 * Top Selling Dish 
 * Interactive Charts (Bar + Pie)
 
