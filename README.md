@@ -8,7 +8,7 @@ It allows users to upload restaurant data (CSV) and instantly view metrics like 
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 📊 Dashboard
 
