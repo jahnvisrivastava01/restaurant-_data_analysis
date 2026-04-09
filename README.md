@@ -28,7 +28,7 @@ It allows users to upload restaurant data (CSV) and instantly view metrics like 
 * Clean tabular report (office-style)
 * Summary of business metrics
 
-### 📂 CSV Upload (🔥 Real-world feature)
+### 📂 CSV Upload (Real-world feature)
 
 * Upload your own dataset
 * Backend processes using pandas
